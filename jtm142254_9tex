@@ -1,0 +1,82 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage[a4paper,top=1in,bottom=1in,right=1in,left=1.5in]{geometry}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{color}
+\title{ \huge Table of contents}
+
+%opening
+\date{}
+
+\begin{document}
+\begin{center}
+%\begin{doublespace}
+\vfill
+\textbf{\Huge{\textcolor{blue}{\rule{\textwidth}{14pt}}\\{EEP773
+\linebreak
+\\Telecom Software Lab}}}\vskip 0.5cm
+{\large Bharti school of Telecommunication Technology and Management}\vskip0.5cm{\textcolor{blue}{\rule{\textwidth}{12pt}}}\\
+%{\huge EEP773}\\ \vskip 2cm
+%{\huge \bfseries  Telecom Software Lab} \\
+%{\large Bharti school of Telecommunication Technology and Management}\vskip 2cm
+%\end{doublespace}
+\vspace{2cm}
+ {\huge\bfseries Assignment 9} 
+ \vskip 1cm
+ {\Large 24th September,2014}
+ \vskip 1cm
+ {\Large \bfseries Anurag Gupta} 
+ \vskip 0.5cm
+{\large 2014JTM2254 }\vskip 2cm
+\begin{figure}[ht]
+ \centering
+ \includegraphics[scale=0.6]{./iitd.png}
+ % iitd.png: 200x204 pixel, 72dpi, 7.06x7.20 cm, bb=0 0 200 204
+\end{figure}
+{ \huge Indian Institute of Technology, Delhi}\vskip 2cm
+ 
+\end{center}
+ \newpage
+ \tableofcontents
+\pagebreak
+
+\pagebreak
+\pagebreak
+\section{PROBLEM STATEMENT}
+The object of the experiment is to teach us the following things about shell script-
+\begin{enumerate}
+\item to design a system using python as a programming language.
+\item to make repositories on Github and work on them.
+\end{enumerate}
+\linebreak
+ We have to perform the following task:-
+\begin{enumerate}
+ \item to analyze a data file on the basis of different emoticons and words that reflect emotions.
+ \item A dictionary is also given to predict the meaning of emoticons and some specific words.
+ \item Depending on this dictionary, we have to count the number of emoticons and words that are there in the dictionaryoutput percentage of different behaviors that are found in the dictionary.
+\end{enumerate}
+\section{LOGIC USED :}
+\begin{enumerate}
+ \item First we have to read the "contents" file and then split different lines 
+ \item store the emoticons in each line in a list
+ \item Create a hash table to store different emoticons and its meaning
+ \item count the number of different emoticons and display their count
+ \item run a for loop to count the total and displaying frequency of each emoticon
+ \end{enumerate}
+ \newpage
+ \begin{figure}
+\section{output snapshot}
+\centering
+ \includegraphics[scale=1.5]{i1.png}
+\caption {output}
+\end{figure}
+
+\newpage
+\section{REFERENCE :}
+\begin{enumerate}
+\item https://developers.google.com/edu/python/regular-expressions
+\item http://www.tutorialspoint.com/python/python.files.io.html
+\end{enumerate}
+
+\end{document}
